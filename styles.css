@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #343a40, #007bff); 
+  color: #ffffff; 
+  margin: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #141313;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  background-color: #f8f9fa;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.completed .task-status {
+  background-color: #28a745; /* Verde */
+}
+
+.not-completed .task-status {
+  background-color: #dc3545; /* Rojo */
+}
+
+.incomplete .task-status {
+  background-color: #6c757d; /* Gris */
+}
+
+.task-name {
+  flex: 1;
+  margin-left: 10px;
+  color: #141313;
+}
+
+.task-actions button {
+  background-color: #dc3545;
+  color: #f9f7f7;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #efe7e7;
+}
+
+h3 {
+  color: #ffe600;
+}
+
+p {
+  color: #f7f5f5;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #ffe600;
+  border-color: #ffe600;
+}
+
+.btn-primary:hover {
+  background-color: #ffd000;
+  border-color: #ffd000;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.btn-history {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #28a745; /* Color verde */
+  border-radius: 5px; /* Bordes redondeados */
+  color: #28a745; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.btn-history:hover {
+  background-color: #28a745; /* Cambiar color de fondo al pasar el ratón */
+  color: #ffffff; /* Cambiar color del texto al pasar el ratón */
+}
